@@ -102,7 +102,7 @@ MIDDLEWARE_CLASSES = (
     'django.contrib.messages.middleware.MessageMiddleware',
 )
 
-ROOT_URLCONF = 'django_app.urls'
+ROOT_URLCONF = 'Riurik-Django-App.urls'
 
 TEMPLATE_DIRS = (
 	os.path.join(os.path.dirname( __file__ ), 'templates'),
@@ -116,7 +116,7 @@ INSTALLED_APPS = (
     'django.contrib.sites',
     'django.contrib.messages',
     'django.contrib.staticfiles',
-	'django_app'
+	'Riurik-Django-App'
     # Uncomment the next line to enable the admin:
     # 'django.contrib.admin',
     # Uncomment the next line to enable admin documentation:
