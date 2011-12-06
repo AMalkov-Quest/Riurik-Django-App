@@ -9,7 +9,7 @@ urlpatterns = patterns('',
 )
 
 urlpatterns += patterns('',
-	(r'^testsrc', include('tests.urls')),
+	(r'^testsrc', include('tests.loader.urls')),
 )
 
 urlpatterns += staticfiles_urlpatterns()
