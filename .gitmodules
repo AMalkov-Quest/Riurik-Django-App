@@ -1,0 +1,3 @@
+[submodule "tests/loader"]
+	path = tests/loader
+	url = git@github.com:andrew-malkov/Riurik-Django.git
