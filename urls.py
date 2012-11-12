@@ -8,8 +8,4 @@ urlpatterns = patterns('',
 	('^hello/$', 'views.hello'),
 )
 
-urlpatterns += patterns('',
-	(r'^testsrc', include('tests.loader.urls')),
-)
-
 urlpatterns += staticfiles_urlpatterns()
